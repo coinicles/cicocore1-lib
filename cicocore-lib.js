@@ -4685,9 +4685,9 @@ function removeNetwork(network) {
 addNetwork({
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x3a,
+  pubkeyhash: 0x1c,
   privatekey: 0x80,
-  scripthash: 0x32,
+  scripthash: 0x05,
   xpubkey: 0x0488b21e,
   xprivkey: 0x0488ade4,
   networkMagic: 0xf9beb4d9,
@@ -55168,7 +55168,7 @@ arguments[4][119][0].apply(exports,arguments)
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],360:[function(require,module,exports){
 module.exports={
-  "name": "qtumcore-lib",
+  "name": "cicocore-lib",
   "version": "0.0.1",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -55266,7 +55266,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"qtumcore-lib":[function(require,module,exports){
+},{}],"cicocore-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
@@ -55276,14 +55276,14 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of qtumcore-lib found. ' +
-      'Please make sure to require qtumcore-lib and check that submodules do' +
-      ' not also include their own qtumcore-lib dependency.';
+    var message = 'More than one instance of cicocore-lib found. ' +
+      'Please make sure to require cicocore-lib and check that submodules do' +
+      ' not also include their own cicocore-lib dependency.';
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._qtumcore);
-global._qtumcore = bitcore.version;
+bitcore.versionGuard(global._cicocore);
+global._cicocore = bitcore.version;
 
 // crypto
 bitcore.crypto = {};

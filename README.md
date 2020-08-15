@@ -1,22 +1,22 @@
-Qtumcore Library
+Cicocore Library
 =======
 
-A pure and powerful JavaScript QTUM library.
+A pure and powerful JavaScript CICO library.
 
 
 ## Get Started
 
 ```
-npm install qtumcore-lib
+npm install cicocore-lib
 ```
 
 ```
-bower install qtumcore-lib
+bower install cicocore-lib
 ```
 
 ## Security
 
-We're using qtumcore-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
+We're using cicocore-lib in production, but please use common sense when doing anything related to finances! We take no responsibility for your implementation decisions.
 
 
 
@@ -26,19 +26,19 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## Building the Browser Bundle
 
-To build a qtumcore-lib full bundle for the browser:
+To build a cicocore-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `qtumcore-lib.js` and `qtumcore-lib.min.js`.
+This will generate files named `cicocore-lib.js` and `cicocore-lib.min.js`.
 
 ## Development & Tests
 
 ```sh
-git clone https://github.com/qtumproject/qtumcore-lib
-cd qtumcore-lib
+git clone https://github.com/coinicles/cicocore-lib
+cd cicocore-lib
 npm install
 ```
 

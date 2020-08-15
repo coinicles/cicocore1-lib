@@ -1,12 +1,12 @@
 {
-  "name": "qtumcore-lib",
-  "main": "./qtumcore-lib.min.js",
+  "name": "cicocore-lib",
+  "main": "./cicocore-lib.min.js",
   "version": "0.0.1",
-  "homepage": "http://qtum.org",
+  "homepage": "http://cico.org",
   "authors": [
-    "QTUM <foundation@qtum.org>"
+    "CICO <foundation@cico.org>"
   ],
-  "description": "A pure, powerful core for your qtum project.",
+  "description": "A pure, powerful core for your cico project.",
   "moduleType": [
     "globals"
   ],
